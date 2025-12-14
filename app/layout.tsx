@@ -1,6 +1,7 @@
 import '@/app/ui/global.css';
 import type { Metadata } from 'next';
 import { DM_Sans } from 'next/font/google';
+import Header from '@/app/ui/header';
 
 const dm_sans = DM_Sans({
     subsets: ['latin'],
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${dm_sans.className} antialiased`}>
+            <body
+                className={`${dm_sans.className} bg-background flex h-screen w-full flex-col overflow-hidden antialiased`}
+            >
+                <Header />
                 {children}
             </body>
         </html>
