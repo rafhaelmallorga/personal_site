@@ -9,6 +9,10 @@
 }
 
 @layer utilities {
+    .oldscholl-shadow {
+        box-shadow: var(--color-strokes) 4px 4px;
+    }
+
     .button-style {
         font-weight: bolder;
         background-color: var(--color-button);

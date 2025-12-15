@@ -1,5 +1,9 @@
+'use client';
+
+import clsx from 'clsx';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const links = [
     { name: 'Home', href: '/', icon: 'home.png', size: 20 },
@@ -10,6 +14,7 @@ const links = [
 ];
 
 export default function NavBar() {
+    const pathname = usePathname();
     return (
         <nav className="ml-4 hidden grow sm:flex">
             <ul className="flex font-black">
@@ -17,7 +22,13 @@ export default function NavBar() {
                     <li key={index}>
                         <Link
                             href={link.href}
-                            className="mr-2 flex h-10 w-fit items-center justify-center p-2 hover:bg-[#E6E6E6]"
+                            className={clsx(
+                                'mr-2 flex h-10 w-fit items-center justify-center p-2 hover:bg-[#E6E6E6]',
+                                {
+                                    'border-strokes oldscholl-shadow border-r-4 border-b-4 bg-[#E6E6E6]':
+                                        pathname === link.href,
+                                }
+                            )}
                         >
                             <div className="flex h-6 w-6 items-center justify-between">
                                 <Image
