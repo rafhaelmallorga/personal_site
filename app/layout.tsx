@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { DM_Sans } from 'next/font/google';
 import Header from '@/app/ui/header';
 
@@ -15,6 +15,14 @@ export const metadata: Metadata = {
     alternates: {
         canonical: 'https://www.mallorga.com',
     },
+};
+
+export const viewport: Viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+    viewportFit: 'cover',
 };
 
 export default function RootLayout({
