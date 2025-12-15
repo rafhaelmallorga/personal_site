@@ -34,7 +34,7 @@ export default function MobileNavbar({ isOpen, onClose }: Props): JSX.Element {
                 )}
             >
                 <div className="border-strokes flex justify-center border-b-4">
-                    <span className="text-text pt-2 pb-2 text-4xl font-extrabold">
+                    <span className="text-button pt-2 pb-2 text-4xl font-extrabold">
                         MENU
                     </span>
                     <button
