@@ -27,6 +27,10 @@ export default function MobileNavbar({ isOpen, onClose }: Props): JSX.Element {
             <div
                 className={clsx(
                     'bg-cards border-strokes fixed top-0 right-0 z-50 h-full w-3/4 max-w-60 border-l-4 transition-transform duration-300 ease-in-out',
+                    // --- ADICIONE ESTAS DUAS LINHAS AQUI ---
+                    'pt-[env(safe-area-inset-top)]', // Empurra o conteúdo para baixo do notch
+                    'pb-[env(safe-area-inset-bottom)]', // Empurra o conteúdo para cima da home bar
+                    // ---------------------------------------
                     {
                         'translate-x-0': isOpen,
                         'translate-x-full': !isOpen,
