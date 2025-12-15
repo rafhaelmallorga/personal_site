@@ -9,7 +9,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className="bg-background border-strokes flex min-h-16 w-full items-center justify-center border-b-4">
+        <div className="bg-background border-strokes flex min-h-16 w-full items-center justify-center border-b-4 pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
             <div className="flex w-full max-w-6xl items-center justify-between pr-3 pl-3">
                 <Image
                     src="/old_computer_logo.png"
