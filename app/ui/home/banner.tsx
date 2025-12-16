@@ -20,7 +20,7 @@ export default function Banner() {
                         href="https://wa.me/5511942450488"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-button text-text border-strokes oldscholl-shadow w-40 border-4 p-1 text-xl font-bold hover:brightness-120 sm:mt-6"
+                        className="bg-button text-text border-strokes oldschool-shadow w-40 border-4 p-1 text-xl font-bold hover:brightness-120 sm:mt-6"
                     >
                         Fale Comigo!
                     </Link>
@@ -31,7 +31,7 @@ export default function Banner() {
                         width={1024}
                         height={1024}
                         alt="Professional Picture of Rafhael Mallorga."
-                        className="border-strokes oldscholl-shadow w-full max-w-96 border-4 sm:max-w-120"
+                        className="border-strokes oldschool-shadow w-full max-w-96 border-4 sm:max-w-120"
                     />
                 </div>
             </div>

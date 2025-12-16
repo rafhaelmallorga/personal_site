@@ -25,7 +25,7 @@ export default function NavBar() {
                             className={clsx(
                                 'mr-2 flex h-10 w-fit items-center justify-center p-2 hover:bg-[#E6E6E6]',
                                 {
-                                    'border-strokes oldscholl-shadow border-r-4 border-b-4 bg-[#E6E6E6]':
+                                    'border-strokes oldschool-shadow border-r-4 border-b-4 bg-[#E6E6E6]':
                                         pathname === link.href,
                                 }
                             )}
@@ -36,6 +36,7 @@ export default function NavBar() {
                                     alt={`Menu icon for ${link.icon}`}
                                     width={link.size}
                                     height={link.size}
+                                    style={{ imageRendering: 'pixelated' }}
                                 />
                             </div>
                             <span>{link.name}</span>

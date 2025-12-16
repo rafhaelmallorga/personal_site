@@ -8,27 +8,57 @@ export default function SectionOne() {
                             Sobre mim.
                         </h3>
                         <p className="mb-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Duis eleifend ultricies felis et tempor.
-                            Aenean nisi diam, laoreet id euismod quis, tincidunt
-                            a est. Fusce egestas ligula id leo ornare gravida.
-                            Quisque condimentum orci ut odio cursus, gravida
-                            posuere ante condimentum. Proin lobortis, lorem non
-                            tristique ultrices, odio justo aliquet nibh, vitae
-                            tempor lectus libero sit amet mauris. Quisque
-                            blandit dui odio, vestibulum luctus massa dictum id.
-                            Aliquam sit amet lacus ultrices, faucibus dui eget,
-                            accumsan lectus.
+                            Profissional com quatro anos de experiência em
+                            desenvolvimento de sistemas, focado no
+                            desenvolvimento contínuo de micro serviços para um
+                            webphone PBX, o domínio principal do negócio, que
+                            atua como núcleo de integração com diversas APIs
+                            internas, externas e CRMs de terceiros. Utilizando a
+                            arquitetura de API Gateway para garantir a
+                            distribuição eficiente de serviços e a comunicação
+                            fluida entre diferentes sistemas.
                         </p>
-                        <p>
-                            Etiam posuere at nunc ac egestas. Quisque nec ipsum
-                            aliquam, mollis nunc vel, commodo lectus. Mauris
-                            ullamcorper sit amet sem at imperdiet. Pellentesque
-                            quis vestibulum urna. Fusce pretium, risus vel
-                            euismod cursus, purus lorem suscipit lorem, vel
-                            ultricies diam purus sit amet purus. Nam venenatis
-                            mi eget imperdiet sodales. Nulla justo lorem,
-                            aliquam vitae varius a, pellentesque at odio.
+                        <p className="mb-4">
+                            Além disso, sou responsável pelo desenvolvimento de
+                            micro serviços internos, como o sistema de
+                            permissionamento, assegurando segurança e controle
+                            de acesso rigorosos. Minha atuação também inclui a
+                            integração com APIs externas de plataformas como
+                            Salesforce, Zendesk e Hubspot, facilitando a
+                            sincronização de dados e proporcionando uma
+                            experiência integrada e eficiente para os usuários.
+                        </p>
+                        <p className="mb-4">
+                            Com expertise em tecnologias como{' '}
+                            <b>
+                                <i>
+                                    React.JS, Angular.JS, Redux, Webpack,
+                                    Node.js, TypeScript, SQL, NoSQL, MongoDB,
+                                    Apache Kafka e Socket.io{' '}
+                                </i>
+                            </b>
+                            , minha atuação abrange a integração de micro
+                            serviços, garantindo eficiência e escalabilidade.
+                            Minhas responsabilidades incluem o desenvolvimento
+                            de novas integrações solicitadas pela área de
+                            negócios, implementação de melhorias, correções de
+                            bugs, refatoração de sistemas legados, testes
+                            automatizados e análise de logs. Trabalho em
+                            ambiente ágil (Scrum), comprometido com a otimização
+                            contínua e a entrega de soluções de alta qualidade.
+                        </p>
+                        <p className="mb-4">
+                            Habilidades:{' '}
+                            <b>
+                                <i>
+                                    HTML, CSS, JavaScript, Typescript, React,
+                                    Next.JS, Redux, Tailwind, Python, Java,
+                                    Spring Boot, Django, Node.js, Express, SQL,
+                                    PostgreSQL, MongoDB, SQLite, Docker, Scrum,
+                                    Kanban, DDD, TDD, SOLID, Inglês avançado -
+                                    Certificação ICAO Level 4.
+                                </i>
+                            </b>
                         </p>
                     </div>
                 </div>

@@ -9,7 +9,7 @@
 }
 
 @layer utilities {
-    .oldscholl-shadow {
+    .oldschool-shadow {
         box-shadow: var(--color-strokes) 4px 4px;
     }
 

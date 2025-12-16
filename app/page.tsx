@@ -9,7 +9,6 @@ export default function Home() {
             <Banner />
             <FastLinks />
             <SectionOne />
-            <div className="flex h-2000 items-center justify-center"></div>
             <Footer />
         </div>
     );
